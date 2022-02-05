@@ -2,8 +2,6 @@
 
 namespace radektredowski\Booking\Reservation;
 
-// use radektredowski\Booking\Reservation\Book;
-
 /**
  * Main booking class
  */

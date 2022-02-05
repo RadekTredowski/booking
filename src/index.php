@@ -5,9 +5,10 @@
  *
  */
 
+require_once "../vendor/autoload.php";
+
 namespace radektredowski\Booking;
 
-require_once "../vendor/autoload.php";
 
 use radektredowski\Booking\Reservation\Booking;
 
@@ -19,7 +20,7 @@ $reservation = [
 	'checkOutDate'		=> 's',
 	'checkInDate' 		=> '',
 	'numberOfAdults'	=> 's',
-	'numberOfChildren'   => 'h'
+	'numberOfChildren'  => 'h'
 ];
 
 $reservation = new Booking($reservation);
